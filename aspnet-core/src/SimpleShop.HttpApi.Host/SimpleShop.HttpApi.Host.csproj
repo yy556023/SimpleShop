@@ -12,11 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SimpleShop.Application.Contracts\SimpleShop.Application.Contracts.csproj" />
+    <ProjectReference Include="..\SimpleShop.Application\SimpleShop.Application.csproj" />
   </ItemGroup>
 
 </Project>

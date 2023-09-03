@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SimpleShop.Application.Contracts\SimpleShop.Application.Contracts.csproj" />
     <ProjectReference Include="..\SimpleShop.Domain.Shared\SimpleShop.Domain.Shared.csproj" />
   </ItemGroup>
 
