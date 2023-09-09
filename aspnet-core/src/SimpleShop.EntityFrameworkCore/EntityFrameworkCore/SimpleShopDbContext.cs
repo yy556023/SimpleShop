@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SimpleShop.Domain.Categories;
+using SimpleShop.Domain.Functions;
 using SimpleShop.Domain.Goods;
 using SimpleShop.Domain.OrderDetails;
 using SimpleShop.Domain.Orders;
@@ -20,6 +21,7 @@ namespace SimpleShop.EntityFrameworkCore
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Good> Goods { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Function> Functions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
